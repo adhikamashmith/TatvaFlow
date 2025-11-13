@@ -15,11 +15,11 @@ with open(config_path, 'r') as file:
 # model4_name = config["model4_name"]
 # model3_name = config["model3_name"]
 # api_key = config["openai_api_key"]
-model3_name = "gemini-2.5-flash"  
-# model4_name = "gemini-2.5-flash"    
-model4_name = "gemini-2.5-pro"    
-# api_key = "AIzaSyDZFbYEY21RsziTT1Tvn9WkhjLe0rWh_eA"
-api_key = "AIzaSyBykfqy8DtlQa9I9OOqu2Kn6sUQr3mFTgM"
+model3_name = "llm model"  
+# model4_name = ""    
+model4_name = "llm model"    
+# api_key = ""
+api_key = "useapikey"
 
 def _init_gemini_llm(model_type,user_api_key):
     """Initializes the Gemini LLM client."""
